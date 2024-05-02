@@ -1,0 +1,68 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.capital-app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.capital-container {
+  background-color: #fff;
+  height: 40vh;
+  width: 50vw;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.capital-heading {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #000000;
+  padding: 20px;
+}
+.capital-container-country {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.capital-active {
+  background-color: #f8fafc;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+  font-family: 'Roboto';
+  width: 180px;
+  height: 50px;
+  border: 1px solid #cbd2d9;
+}
+.option {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  color: #000000;
+}
+.capital-paragraph {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+}
+.capital-para {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 32px;
+}
